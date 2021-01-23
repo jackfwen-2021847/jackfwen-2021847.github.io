@@ -1,0 +1,126 @@
+body {background: url('NightBackground.png')
+    
+}
+
+
+a {
+    color:orange;
+    font-weight: bold;
+    font-size:24 px;
+
+}
+
+div {
+    background-color:white
+
+}
+
+#photo {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+    color: cyan;
+    font-size: 30px;
+}
+
+h3 {
+    color:goldenrod;
+    font-size: 40px;
+    font-family: fantasy;
+    margin-bottom: 0px;
+}
+h4{
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+h5{
+
+}
+h6{
+    width: 700px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom: 10px;
+    text-align: center;
+
+
+}
+
+ul {
+    list-style-type: none;
+    padding-left:0px;
+
+
+}
+
+#Header {
+    width: 500px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom: 10px;
+    border:solid 8px black;
+    background-color: thistle;
+    direction: rtl;
+}
+
+#Header h1 {
+    font-size: 60px; font-family: fantasy; color: #1b9dd1; font-weight: bold;
+
+
+}
+
+#LeftNav {
+    width: 400px;
+    height: 505px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom: 10px;
+    float: left;
+    text-align: center;
+    padding-bottom: 8px;
+    border: black dotted 8px;
+    background-color: cadetblue;
+    align-content: ;
+}
+
+#RightNav {
+    width: 400px;
+    height: 505px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom: 10px;
+    float: left;
+    text-align: center;
+    padding-bottom: 8px;
+    border: solid 8px black;
+    background-color: cadetblue;
+    float: right;
+    border-radius: 25px;
+    direction: rtl;
+}
+
+#Content {
+    width: 700px; 
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom: 10px;
+    text-align: center;
+    padding-bottom: 15px;
+    background-color: transparent;
+}
+#alteredphoto{
+    margin: 20px;
+    background-color: transparent;
+
+}
+  
+#Footer {
+    border:solid 8px black;
+    background-color: cornflowerblue;
+
+}
+
