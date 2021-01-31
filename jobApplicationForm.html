@@ -1,0 +1,141 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Job Application</title>
+</head>
+<body>
+    <style>
+    body{
+        background-color: rgb(95, 147, 160);
+    }
+    </style>
+
+<h2>About you</h2>
+
+<form action="http://gclass.alexburner.com/formtest.php" method="post">
+
+	<fieldset>
+		<legend>Basic Information</legend>
+		<div class="field">
+			<label>First Name:</label> 
+			<input type="text" name="First Name">
+		</div>
+		<div class="field">
+			<label>Middle Initial:</label> 
+			<input type="Middle Initial" name="Middle Initial">
+		</div>
+		<div class="field">
+			<label>Last Name:</label> 
+			<input type="Last Name" name="Last Name">
+		</div>
+	</fieldset>
+
+	<fieldset>
+		<legend>More about you</legend>
+		<div class="field">
+			<label>Favorite Food(s)</label> 
+			<input type="text" name="Favorite Foods">
+		</div>
+		<div class="field">
+			<label>Hobbies:</label> 
+			<input type="text" name="Hobbies">
+		</div>
+		<div class="field">
+			<label>Favorite TV Show/Movie:</label> 
+			<input type="text" name="Favorite TV Show/Movie">
+		</div>
+		<div class="field">
+			<label>Favorite Color(s):</label> 
+			<select name="Colors" size="5" multiple>
+				<option value="" selected="true">Choose Color(s)</option>
+				<option value="Blue">Blue</option>
+				<option value="Red">Red</option>
+				<option value="Green">Green</option>
+                <option value="Yellow">Yellow</option>
+                <option value="Gold">Gold</option>
+				<option value="Black">Black</option>
+				<option value="White">White</option>
+                <option value="Pink">Pink</option>
+                <div class="field">
+                    <input type="text" name="Color">
+                    <p>Name Color in box if not listed.</p>
+            </select>
+            <p>Hold down the Ctrl (windows) / Command (Mac) button to select multiple Color options.</p>
+
+		</div>
+	</fieldset>
+
+	<fieldset>
+		<legend>Specificities</legend>
+		<div class="field">
+			<label>Are you a male or a female??</label> 
+			<input type="radio" name="Female" value="Female">Female
+			<input type="radio" name="Male" value="Male">Male
+		</div>
+		<div class="field">
+			<label>What is your sexuality(if u don't mind answering)?</label>
+			<ul>
+				<li><input type="checkbox" name="sexuality_st" value="Straight">Straight</li>
+				<li><input type="checkbox" name="sexuality_ho" value="Homosexual">Homosexual</li>
+				<li><input type="checkbox" name="sexuality_bi" value="Bisexual">Bisexual</li>
+                <li><input type="checkbox" name="sexuality_As" value="Asexual">Asexual</li>
+                <input type="text" name="sexuality">
+                <p>Please specify(if comfortable), if not listed.</p>                
+			</ul>
+		</div>
+		<div class="field">
+			<label>Hours a week that you're working/in school</label>
+			<table>
+				<tr>
+					<td></td>
+					<th>Sun</th>
+					<th>Mon</th>
+					<th>Tue</th>
+					<th>Wed</th>
+					<th>Thu</th>
+					<th>Fri</th>
+					<th>Sat</th>
+				</tr>
+				<tr>
+					<th>From</th>
+					<td><input type="time" size="5" name="su_from"></td>
+					<td><input type="time" size="5" name="mo_from"></td>
+					<td><input type="time" size="5" name="tu_from"></td>
+					<td><input type="time" size="5" name="we_from"></td>
+					<td><input type="time" size="5" name="th_from"></td>
+					<td><input type="time" size="5" name="fr_from"></td>
+					<td><input type="time" size="5" name="sa_from"></td>
+				</tr>
+				<tr>
+					<th>Until</th>
+					<td><input type="time" size="5" name="su_until"></td>
+					<td><input type="time" size="5" name="mo_until"></td>
+					<td><input type="time" size="5" name="tu_until"></td>
+					<td><input type="time" size="5" name="we_until"></td>
+					<td><input type="time" size="5" name="th_until"></td>
+					<td><input type="time" size="5" name="fr_until"></td>
+					<td><input type="time" size="5" name="sa_until"></td>
+				</tr>
+			</table>
+		</div>
+	</fieldset>
+
+	<fieldset>
+		<legend>Misc/Other</legend>
+		<div class="field">
+			<label>What are your carrer goals and amibtions? What are your goals and amibitons for life in general?</label><br>
+			<textarea name="goals and ambitions" rows="6" cols="60"></textarea>
+		</div>
+		<div class="field">
+			<label>Any final thoughts or statements that you would like to share?</label><br>
+			<textarea name="final thoughts" rows="6" cols="60"></textarea>
+		</div>
+	</fieldset>
+
+	<input type="submit" value="Submit form">
+
+</form>
+</body>
+</html>
